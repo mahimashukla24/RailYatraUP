@@ -133,7 +133,7 @@ CREATE TABLE "RESERVATION"."HISTORY"
 COMMIT;
 
 INSERT INTO RESERVATION.ADMIN VALUES('admin@demo.com','admin','System','Admin','Demo Address 123 colony','9874561230');
-INSERT INTO RESERVATION.CUSTOMER VALUES('shashi@demo.com','shashi','Shashi','Raj','Kolkata, West Bengal',954745222);
+INSERT INTO RESERVATION.CUSTOMER VALUES('mahima@demo.com','mahima','mahima','Raj','Kolkata, West Bengal',954745222);
 
 INSERT INTO RESERVATION.TRAIN VALUES(10001,'JODHPUR EXP','HOWRAH','JODHPUR', 152, 490.50);
 INSERT INTO RESERVATION.TRAIN VALUES(10002,'YAMUNA EXP','GAYA','DELHI', 52, 550.50);
@@ -142,9 +142,9 @@ INSERT INTO RESERVATION.TRAIN VALUES(10004,'JAN SATABDI EXP','RANCHI','PATNA', 1
 INSERT INTO RESERVATION.TRAIN VALUES(10005,'GANGE EXP','MUMBAI','KERALA', 12, 945);
 INSERT INTO RESERVATION.TRAIN VALUES(10006,'GARIB RATH EXP','PATNA','DELHI', 1, 1450.75);
 
-INSERT INTO RESERVATION.HISTORY VALUES('BBC374-NSDF-4673','shashi@demo.com',10001,TO_DATE('02-FEB-2024'), 'HOWRAH', 'JODHPUR', 2, 981);
-INSERT INTO RESERVATION.HISTORY VALUES('BBC375-NSDF-4675','shashi@demo.com',10004,TO_DATE('12-JAN-2024'), 'RANCHI', 'PATNA', 1, 550);
-INSERT INTO RESERVATION.HISTORY VALUES('BBC373-NSDF-4674','shashi@demo.com',10006,TO_DATE('22-JULY-2024'), 'PATNA', 'DELHI', 3, 4352.25);
+INSERT INTO RESERVATION.HISTORY VALUES('BBC374-NSDF-4673','mahima@demo.com',10001,TO_DATE('02-FEB-2024'), 'HOWRAH', 'JODHPUR', 2, 981);
+INSERT INTO RESERVATION.HISTORY VALUES('BBC375-NSDF-4675','mahima@demo.com',10004,TO_DATE('12-JAN-2024'), 'RANCHI', 'PATNA', 1, 550);
+INSERT INTO RESERVATION.HISTORY VALUES('BBC373-NSDF-4674','mahima@demo.com',10006,TO_DATE('22-JULY-2024'), 'PATNA', 'DELHI', 3, 4352.25);
 
 COMMIT;
 ```
@@ -161,7 +161,7 @@ Note: If any of the above commands fails, please try to fix it first and then pr
 ### ====== Importing and Running the Project Through Eclipse EE ===========
 Step 0: Open Eclipse Enterprise Edition. [Install if not available](https://www.youtube.com/watch?v=8aDsEV7txXE)
 
-Step 1: Click On File > Import > Git > Projects From Git > Clone Uri  > Paste The Repository Url: ```https://github.com/shashirajraja/Train-Ticket-Reservation-System.git``` > Next > Select Master Branch > Next > Finish
+Step 1: Click On File > Import > Git > Projects From Git > Clone Uri  > Paste The Repository Url: ```https://github.com/mahimarajraja/Train-Ticket-Reservation-System.git``` > Next > Select Master Branch > Next > Finish
 
 Step 2.A: Right Click on Project > Run as > Maven Build > In the goals field enter "clean install" > apply > run
 
@@ -177,7 +177,7 @@ Step 6: Check Running The Site At  <a Href="Http://localhost:8083/trainbook/">ht
 
 Step 7: Default Username And Password For Admin Is "admin@demo.com" And "admin"
 
-Step 8: Default Username And Password For User Is "shashi@demo.com" And "shashi"
+Step 8: Default Username And Password For User Is "mahima@demo.com" And "mahima"
 
 
 
@@ -211,15 +211,15 @@ Step 8: Default Username And Password For User Is "shashi@demo.com" And "shashi"
 <img width="100%" alt="All Ticket Booking History" src="https://user-images.githubusercontent.com/34605595/232220491-3e7996cb-a54c-4375-a35a-6ab1d211a001.png">
 
 11. Fare Enquiry
-<img alt="Fare Enquiry between stations" src="https://github.com/shashirajraja/Train-Ticket-Reservation-System/blob/master/Screenshots/fareenquiry.png" width="100%">
+<img alt="Fare Enquiry between stations" src="https://github.com/mahimarajraja/Train-Ticket-Reservation-System/blob/master/Screenshots/fareenquiry.png" width="100%">
 
 12. Change Password
-<img alt="Change user Password" src="https://github.com/shashirajraja/Train-Ticket-Reservation-System/blob/master/Screenshots/passwordchange.png" width="100%">
+<img alt="Change user Password" src="https://github.com/mahimarajraja/Train-Ticket-Reservation-System/blob/master/Screenshots/passwordchange.png" width="100%">
 
 13. Add Trains By Admin
-<img alt="Admin Home" src="https://github.com/shashirajraja/Train-Ticket-Reservation-System/blob/master/Screenshots/addtrains.png" width="100%">
+<img alt="Admin Home" src="https://github.com/mahimarajraja/Train-Ticket-Reservation-System/blob/master/Screenshots/addtrains.png" width="100%">
 
 
 #### "Suggestions and project Improvement are Invited"
-#### Shashi Raj
+#### mahima Raj
 ##### Project Leader
